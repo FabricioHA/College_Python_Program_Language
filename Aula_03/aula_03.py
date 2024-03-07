@@ -164,5 +164,11 @@ seja falsa, ela será anulada.
 
 No outro caso OR, se um valor ou (OR) outro for verdadeiro, caso
 um dos valores seja verdadeiro, a operação será verdadeira.
-
 """
+
+print(nome == 'FABRÍCIO' and produto == 'maçã')
+#Resultado: False
+
+print(nome == 'FABRÍCIO' or produto == 'maçã')
+#Resultado: True
+
