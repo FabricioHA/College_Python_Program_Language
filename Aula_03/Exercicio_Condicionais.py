@@ -52,4 +52,4 @@ while True:
         print("Programa finalizado...")
         break
     else:
-        print("\nValor digitado incorretemante\n")
+        print("\nValor digitado incyrretemante\n")
