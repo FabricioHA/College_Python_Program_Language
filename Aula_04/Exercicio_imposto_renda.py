@@ -23,7 +23,7 @@ elif salarioBruto > 4664.68:
     aliquota = 0.275
     deducao = 884.96 
 
-if(aliquota != 0 and deducao != 0):
+if aliquota != 0 and deducao != 0:
     aliquota = salarioBruto*aliquota
     deducao = aliquota - deducao
     salarioLiquido = salarioBruto - deducao
