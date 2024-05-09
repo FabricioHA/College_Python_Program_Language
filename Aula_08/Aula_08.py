@@ -4,14 +4,33 @@ Programação Orientada a objeto (POO)
 ===========================================
 Objetos: Todo objeto tem uma caracteristica, uma "PROPRIEDADE".;
 
+Esses objetos possuem funções na qual tenha algum propósito,
+como por exemplo um teclado, com cor, numero de teclas, largura,
+e entre outras caracteristicas, com a função de digitar,
+basicamente.
+
+A estrutura de função seria algo como:
+
+function digitar()
+{
+    **conteudo**
+    return resultado;
+}
+
 Ou seja, eu posso criar um objeto, uma classe, uma estrutura, com
-todas as suas caracteristicas.
+todas as suas caracteristicas, um molde que pode ser adaptado
+dependendo da demanda do usuário/cliente.
+
+    classe
+        - define:
+            Atributos
+            Métodos
 
 essa classe ainda não é um objeto, mas tem suas caracteristicas.
 
-Para que possamos criar um objeto, "INSTANCIAMOS" esse objeto (classe)
-que será utilizada para determinada função ou propriedade no
-sistema.
+Para que possamos criar um objeto, "INSTANCIAMOS" esse objeto 
+(classe)que será utilizada para determinada função ou propriedade 
+no sistema.
 ===========================================
 """
 
